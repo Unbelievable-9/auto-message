@@ -1,0 +1,47 @@
+local telephone_number_string
+set telephone_number_string to %@
+
+local content_string
+set content_string to %@
+
+local separte_time
+set separte_time to %@
+
+tell application "Messages" to activate
+
+delay 1.0
+
+tell application "System Events"
+    tell process "Messages"
+        click button 1 of splitter group 1 of window 1
+
+        delay 0.5
+
+        repeat with counter_variable_name from 1 to count of telephone_number_string
+            set current_character to item counter_variable_name of telephone_number_string
+            keystroke current_character
+        end repeat
+
+        keystroke tab
+        delay 0.5
+
+        tell text area 1 of scroll area 4 of splitter group 1 of window 1
+            set value to content_string
+            delay 0.5
+        end tell
+
+        keystroke return
+        delay 0.5
+
+        try
+            click button 1 of sheet 1 of window 1
+        on error
+            set someText to telephone_number_string
+            set textFile to "%@/Desktop/支持iMessage的号码列表.txt"
+
+            do shell script "echo " & quoted form of someText & " >> " & quoted form of textFile
+        end try
+
+        delay separte_time
+    end tell
+end tell

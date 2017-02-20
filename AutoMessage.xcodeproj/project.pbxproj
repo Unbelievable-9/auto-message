@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		552EF7341CBAAED700C598D9 /* UN9AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 552EF7331CBAAED700C598D9 /* UN9AppDelegate.m */; };
+		552EF7391CBAAED700C598D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552EF7381CBAAED700C598D9 /* Assets.xcassets */; };
+		552EF73C1CBAAED700C598D9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 552EF73A1CBAAED700C598D9 /* MainMenu.xib */; };
+		952CBB291CF6049C00108817 /* UN9LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952CBB271CF6049C00108817 /* UN9LaunchViewController.m */; };
+		952CBB2A1CF6049C00108817 /* UN9LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 952CBB281CF6049C00108817 /* UN9LaunchViewController.xib */; };
+		952CBB351CF60B6D00108817 /* AppleScript-Change-AppleID.txt in Resources */ = {isa = PBXBuildFile; fileRef = 952CBB331CF60B6D00108817 /* AppleScript-Change-AppleID.txt */; };
+		952CBB361CF60B6D00108817 /* AppleScript-Source-Template.txt in Resources */ = {isa = PBXBuildFile; fileRef = 952CBB341CF60B6D00108817 /* AppleScript-Source-Template.txt */; };
+		952CBB3A1CF60BA400108817 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 952CBB381CF60BA400108817 /* main.m */; };
+		952CBB401CF60E3D00108817 /* un9_launch_macbook.png in Resources */ = {isa = PBXBuildFile; fileRef = 952CBB3E1CF60E3D00108817 /* un9_launch_macbook.png */; };
+		952CBB411CF60E3D00108817 /* un9_launch_message.png in Resources */ = {isa = PBXBuildFile; fileRef = 952CBB3F1CF60E3D00108817 /* un9_launch_message.png */; };
+		952CBB431CF60EF300108817 /* un9_launch_magic_wand.png in Resources */ = {isa = PBXBuildFile; fileRef = 952CBB421CF60EF300108817 /* un9_launch_magic_wand.png */; };
+		9591B46D1D03C59B00B0EF22 /* UN9IntegerNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9591B46C1D03C59B00B0EF22 /* UN9IntegerNumberFormatter.m */; };
+		9591B4711D03C5C500B0EF22 /* UN9MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9591B46F1D03C5C500B0EF22 /* UN9MainViewController.m */; };
+		9591B4721D03C5C500B0EF22 /* UN9MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9591B4701D03C5C500B0EF22 /* UN9MainViewController.xib */; };
+		9595DB451CFAC15300E9EF9E /* un9_apple_id.png in Resources */ = {isa = PBXBuildFile; fileRef = 9595DB441CFAC15300E9EF9E /* un9_apple_id.png */; };
+		9595DB4E1CFAE2D200E9EF9E /* Serial_Number.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9595DB4D1CFAE2D200E9EF9E /* Serial_Number.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		552EF72F1CBAAED700C598D9 /* AutoMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		552EF7321CBAAED700C598D9 /* UN9AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UN9AppDelegate.h; sourceTree = "<group>"; };
+		552EF7331CBAAED700C598D9 /* UN9AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UN9AppDelegate.m; sourceTree = "<group>"; };
+		552EF7381CBAAED700C598D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		552EF73B1CBAAED700C598D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		952CBB261CF6049C00108817 /* UN9LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UN9LaunchViewController.h; path = LaunchViewController/UN9LaunchViewController.h; sourceTree = "<group>"; };
+		952CBB271CF6049C00108817 /* UN9LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UN9LaunchViewController.m; path = LaunchViewController/UN9LaunchViewController.m; sourceTree = "<group>"; };
+		952CBB281CF6049C00108817 /* UN9LaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UN9LaunchViewController.xib; path = LaunchViewController/UN9LaunchViewController.xib; sourceTree = "<group>"; };
+		952CBB331CF60B6D00108817 /* AppleScript-Change-AppleID.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "AppleScript-Change-AppleID.txt"; path = "Resources/AppleScript-Template/AppleScript-Change-AppleID.txt"; sourceTree = "<group>"; };
+		952CBB341CF60B6D00108817 /* AppleScript-Source-Template.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "AppleScript-Source-Template.txt"; path = "Resources/AppleScript-Template/AppleScript-Source-Template.txt"; sourceTree = "<group>"; };
+		952CBB371CF60BA400108817 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952CBB381CF60BA400108817 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		952CBB3E1CF60E3D00108817 /* un9_launch_macbook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = un9_launch_macbook.png; path = Resources/Images/un9_launch_macbook.png; sourceTree = "<group>"; };
+		952CBB3F1CF60E3D00108817 /* un9_launch_message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = un9_launch_message.png; path = Resources/Images/un9_launch_message.png; sourceTree = "<group>"; };
+		952CBB421CF60EF300108817 /* un9_launch_magic_wand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = un9_launch_magic_wand.png; path = Resources/Images/un9_launch_magic_wand.png; sourceTree = "<group>"; };
+		9591B46B1D03C59B00B0EF22 /* UN9IntegerNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UN9IntegerNumberFormatter.h; path = Utilities/UN9IntegerNumberFormatter.h; sourceTree = "<group>"; };
+		9591B46C1D03C59B00B0EF22 /* UN9IntegerNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UN9IntegerNumberFormatter.m; path = Utilities/UN9IntegerNumberFormatter.m; sourceTree = "<group>"; };
+		9591B46E1D03C5C500B0EF22 /* UN9MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UN9MainViewController.h; path = MainViewController/UN9MainViewController.h; sourceTree = "<group>"; };
+		9591B46F1D03C5C500B0EF22 /* UN9MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UN9MainViewController.m; path = MainViewController/UN9MainViewController.m; sourceTree = "<group>"; };
+		9591B4701D03C5C500B0EF22 /* UN9MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UN9MainViewController.xib; path = MainViewController/UN9MainViewController.xib; sourceTree = "<group>"; };
+		9595DB441CFAC15300E9EF9E /* un9_apple_id.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = un9_apple_id.png; path = Resources/Images/un9_apple_id.png; sourceTree = "<group>"; };
+		9595DB4D1CFAE2D200E9EF9E /* Serial_Number.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Serial_Number.txt; path = Resources/Serial/Serial_Number.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		552EF72C1CBAAED700C598D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		552EF7261CBAAED700C598D9 = {
+			isa = PBXGroup;
+			children = (
+				552EF7311CBAAED700C598D9 /* AutoMessage */,
+				552EF7301CBAAED700C598D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		552EF7301CBAAED700C598D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				552EF72F1CBAAED700C598D9 /* AutoMessage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		552EF7311CBAAED700C598D9 /* AutoMessage */ = {
+			isa = PBXGroup;
+			children = (
+				552EF7321CBAAED700C598D9 /* UN9AppDelegate.h */,
+				552EF7331CBAAED700C598D9 /* UN9AppDelegate.m */,
+				552EF73A1CBAAED700C598D9 /* MainMenu.xib */,
+				952CBB251CF6045400108817 /* LaunchViewController */,
+				952CBB441CF614DE00108817 /* MainViewController */,
+				9591B46A1D03C55B00B0EF22 /* Utilities */,
+				952CBB2B1CF60ABA00108817 /* Resources */,
+				552EF7351CBAAED700C598D9 /* Supporting Files */,
+			);
+			path = AutoMessage;
+			sourceTree = "<group>";
+		};
+		552EF7351CBAAED700C598D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				952CBB381CF60BA400108817 /* main.m */,
+				952CBB371CF60BA400108817 /* Info.plist */,
+				552EF7381CBAAED700C598D9 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		952CBB251CF6045400108817 /* LaunchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				952CBB261CF6049C00108817 /* UN9LaunchViewController.h */,
+				952CBB271CF6049C00108817 /* UN9LaunchViewController.m */,
+				952CBB281CF6049C00108817 /* UN9LaunchViewController.xib */,
+			);
+			name = LaunchViewController;
+			sourceTree = "<group>";
+		};
+		952CBB2B1CF60ABA00108817 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9595DB4C1CFAE2B400E9EF9E /* Serial */,
+				952CBB2E1CF60B4B00108817 /* AppleScript-Template */,
+				952CBB3B1CF60BDC00108817 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		952CBB2E1CF60B4B00108817 /* AppleScript-Template */ = {
+			isa = PBXGroup;
+			children = (
+				952CBB331CF60B6D00108817 /* AppleScript-Change-AppleID.txt */,
+				952CBB341CF60B6D00108817 /* AppleScript-Source-Template.txt */,
+			);
+			name = "AppleScript-Template";
+			sourceTree = "<group>";
+		};
+		952CBB3B1CF60BDC00108817 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				952CBB3E1CF60E3D00108817 /* un9_launch_macbook.png */,
+				952CBB421CF60EF300108817 /* un9_launch_magic_wand.png */,
+				9595DB441CFAC15300E9EF9E /* un9_apple_id.png */,
+				952CBB3F1CF60E3D00108817 /* un9_launch_message.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		952CBB441CF614DE00108817 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9591B46E1D03C5C500B0EF22 /* UN9MainViewController.h */,
+				9591B46F1D03C5C500B0EF22 /* UN9MainViewController.m */,
+				9591B4701D03C5C500B0EF22 /* UN9MainViewController.xib */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		9591B46A1D03C55B00B0EF22 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9591B46B1D03C59B00B0EF22 /* UN9IntegerNumberFormatter.h */,
+				9591B46C1D03C59B00B0EF22 /* UN9IntegerNumberFormatter.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		9595DB4C1CFAE2B400E9EF9E /* Serial */ = {
+			isa = PBXGroup;
+			children = (
+				9595DB4D1CFAE2D200E9EF9E /* Serial_Number.txt */,
+			);
+			name = Serial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		552EF72E1CBAAED700C598D9 /* AutoMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 552EF7401CBAAED700C598D9 /* Build configuration list for PBXNativeTarget "AutoMessage" */;
+			buildPhases = (
+				552EF72B1CBAAED700C598D9 /* Sources */,
+				552EF72C1CBAAED700C598D9 /* Frameworks */,
+				552EF72D1CBAAED700C598D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoMessage;
+			productName = AutoMessage;
+			productReference = 552EF72F1CBAAED700C598D9 /* AutoMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		552EF7271CBAAED700C598D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Unbelievable9;
+				TargetAttributes = {
+					552EF72E1CBAAED700C598D9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 552EF72A1CBAAED700C598D9 /* Build configuration list for PBXProject "AutoMessage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 552EF7261CBAAED700C598D9;
+			productRefGroup = 552EF7301CBAAED700C598D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				552EF72E1CBAAED700C598D9 /* AutoMessage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		552EF72D1CBAAED700C598D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9591B4721D03C5C500B0EF22 /* UN9MainViewController.xib in Resources */,
+				952CBB351CF60B6D00108817 /* AppleScript-Change-AppleID.txt in Resources */,
+				952CBB431CF60EF300108817 /* un9_launch_magic_wand.png in Resources */,
+				9595DB451CFAC15300E9EF9E /* un9_apple_id.png in Resources */,
+				552EF7391CBAAED700C598D9 /* Assets.xcassets in Resources */,
+				952CBB411CF60E3D00108817 /* un9_launch_message.png in Resources */,
+				952CBB361CF60B6D00108817 /* AppleScript-Source-Template.txt in Resources */,
+				952CBB401CF60E3D00108817 /* un9_launch_macbook.png in Resources */,
+				552EF73C1CBAAED700C598D9 /* MainMenu.xib in Resources */,
+				9595DB4E1CFAE2D200E9EF9E /* Serial_Number.txt in Resources */,
+				952CBB2A1CF6049C00108817 /* UN9LaunchViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		552EF72B1CBAAED700C598D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952CBB291CF6049C00108817 /* UN9LaunchViewController.m in Sources */,
+				952CBB3A1CF60BA400108817 /* main.m in Sources */,
+				9591B4711D03C5C500B0EF22 /* UN9MainViewController.m in Sources */,
+				9591B46D1D03C59B00B0EF22 /* UN9IntegerNumberFormatter.m in Sources */,
+				552EF7341CBAAED700C598D9 /* UN9AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		552EF73A1CBAAED700C598D9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				552EF73B1CBAAED700C598D9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		552EF73E1CBAAED700C598D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		552EF73F1CBAAED700C598D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		552EF7411CBAAED700C598D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AutoMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = u9.AutoMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		552EF7421CBAAED700C598D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AutoMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = u9.AutoMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		552EF72A1CBAAED700C598D9 /* Build configuration list for PBXProject "AutoMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552EF73E1CBAAED700C598D9 /* Debug */,
+				552EF73F1CBAAED700C598D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		552EF7401CBAAED700C598D9 /* Build configuration list for PBXNativeTarget "AutoMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552EF7411CBAAED700C598D9 /* Debug */,
+				552EF7421CBAAED700C598D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 552EF7271CBAAED700C598D9 /* Project object */;
+}
