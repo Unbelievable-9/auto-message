@@ -1,6 +1,6 @@
 # AutoMessage
 
-Client side iMessage spam demo.
+Alternative iMessage Client Demo.
 
 **Created for research, don't use it in any illegal situation.**
 
